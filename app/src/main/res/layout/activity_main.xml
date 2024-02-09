@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" android:layout_margin="10dp">
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TableRow>
+               <Button android:id="@+id/btnIntent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Intent" android:layout_weight="1"/>
+               <Button android:id="@+id/btnLayouts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Layout Demo" android:layout_weight="1"/>
+
+           </TableRow>
+           <TableRow>
+               <Button android:id="@+id/btnUIEvents" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UI Events" android:layout_weight="1"/>
+           </TableRow>
+           <TableRow>
+
+               <Button android:id="@+id/btnAlertDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alert Dialog" android:layout_weight="1"/>
+               <Button android:id="@+id/btnCustomDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Custom Dialog" android:layout_weight="1"/>
+           </TableRow>
+           <TableRow>
+               <Button android:id="@+id/btnToolbar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toolbar_1" android:layout_weight="1"/>
+               <Button android:id="@+id/btnToolbar_with_click" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toolbar Click" android:layout_weight="1"/>
+           </TableRow>
+
+           <TableRow>
+               <Button android:id="@+id/btnToolbar2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Toolbar 2" android:layout_weight="1"/>
+           </TableRow>
+
+           <TableRow>
+               <Button android:id="@+id/btnListview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ListView" android:layout_weight="1"/>
+               <Button android:id="@+id/btnSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spinner" android:layout_weight="1"/>
+           </TableRow>
+
+           <TableRow>
+               <Button android:id="@+id/btnsqlite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SQLite" android:layout_weight="1"/>
+               <Button android:id="@+id/btnMySQL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySql" android:layout_weight="1"/>
+               <Button android:id="@+id/btnMySQL_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySql Select" android:layout_weight="1"/>
+           </TableRow>
+
+           <TableRow>
+               <Button android:id="@+id/btnTouchSensor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Touch Sensor" android:layout_weight="1"/>
+               <Button android:id="@+id/btnAccelerometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accelerometer" android:layout_weight="1"/>
+           </TableRow>
+
+           <TableRow>
+               <Button android:id="@+id/btnPlaySong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PlaySong" android:layout_weight="1"/>
+           </TableRow>
+       </TableLayout>
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

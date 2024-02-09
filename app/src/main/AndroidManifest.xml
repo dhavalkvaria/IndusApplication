@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ambaitsystem.indusapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+
+    <application
+        android:name=".MyApplication_OnlineTransfer"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".Toolbar_Menu_3_click" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ambaitsystem.indusapplication.TestActivity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.TestProjectActivity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.e_Intent_Source_Activity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Toolbar_1" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Toolbar_Menu_2" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.AlertDialog_4" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Custom_AlertDialog_5" android:exported="true"> </activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Screen_tapping_7" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Accelerometer_8" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.json_using_slim_10" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.d_dialog" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.e_Intent_Destination_Activity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.ListviewActivity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.f_service_starter" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.g_service_AsynchTask" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.h_timer" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.i_thread" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.l_play_media" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.MainActivity"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.m_sqlite_database" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Spinner_1" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.LayoutDemoActivity" android:exported="true"></activity>
+        <activity android:name="com.ambaitsystem.indusapplication.Activity_Web_API" android:exported="true"></activity>
+
+
+        <service  android:name=".f_service" />
+
+    </application>
+</manifest>

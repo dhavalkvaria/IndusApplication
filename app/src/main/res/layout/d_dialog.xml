@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<TableLayout android:id="@+id/tableLayout1" android:layout_width="300dp" android:layout_height="wrap_content">
+
+		<TableRow android:id="@+id/tableRow3" android:background="@drawable/lostprompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="bottom|center_horizontal">
+			<Button android:layout_marginBottom="20dp" android:layout_width="wrap_content" android:text=" " android:background="@drawable/retry" android:gravity="bottom|center_horizontal" android:id="@+id/btnretry" android:layout_height="wrap_content"></Button>
+		</TableRow>
+
+		<TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+		</TableRow>
+		<TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
